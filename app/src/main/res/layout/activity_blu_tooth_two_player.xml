@@ -1,0 +1,13 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_bluTooth"
+        android:name="com.apps.andrew.lifelinker.BlueToothTwoPlayerFragment"
+        tools:layout="@layout/fragment_blue_tooth_two_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

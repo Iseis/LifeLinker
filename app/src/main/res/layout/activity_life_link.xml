@@ -1,0 +1,15 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<fragment
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment"
+    android:name="com.apps.andrew.lifelinker.LifeLinkActivityFragment"
+    tools:layout="@layout/fragment_life_link"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+
+</FrameLayout>

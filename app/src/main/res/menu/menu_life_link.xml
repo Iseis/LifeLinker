@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".LifeLinkActivity">
+    <item android:id="@+id/blu_toothPlay"
+        android:title="Two Player Blutooth"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/new_game"
+        android:title="New Game"
+        app:showAsAction="ifRoom" />
+</menu>
